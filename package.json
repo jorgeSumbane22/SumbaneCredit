@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "node scripts/copy-assets.mjs",
+        "postinstall": "node scripts/copy-assets.mjs"
+    },
+    "dependencies": {
+        "bootstrap": "5.3.3",
+        "bootstrap-icons": "1.11.3",
+        "chart.js": "4.4.4",
+        "sweetalert2": "11.14.0"
+    }
+}
